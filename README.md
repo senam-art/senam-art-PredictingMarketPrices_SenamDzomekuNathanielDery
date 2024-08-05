@@ -1,0 +1,1 @@
+# senam-art-PredictingMarketPrices_SenamDzomekuNathanielDery
