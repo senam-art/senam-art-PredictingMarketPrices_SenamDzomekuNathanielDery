@@ -26,9 +26,9 @@ pip install nixtla
 
 - `rice_price_prediction.ipynb`: The main notebook where the entire workflow is carried out.
 - `forecast_combined_df.csv`: The CSV file containing the forecasted rice prices along with exogenous features.
-- `data/`: Directory containing input data files for the project.
-- `outputs/`: Directory where the outputs, including visualizations and forecasts, are saved.
-
+- `deployment_data.csv`: CSV file containing input data files for the project.
+- `app.py`: .py that is the deployment of TimeGpt for rice price preditions
+  
 ### Data
 
 The dataset was created from real data in Ghana. It includes historical data on rice prices and exogenous variables such as maize prices, exchange rates, inflation, and rainfall.
