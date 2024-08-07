@@ -6,6 +6,7 @@
 This project aims to predict rice prices in Ghana using economic exogenous features such as exchange rates, maize prices, inflation, and rainfall. After exploring various methods for time series prediction, we found that Nixtla's TimeGPT model provided the most accurate results by reducing biases commonly found in other methods.
 
 ***Youtube Link***: https://youtu.be/UuKaaygph7M (demo of the application)
+The application can be accessed at https://senam-art-predictingmarketpricessenamdzomekunathanieldery-kbrn.streamlit.app/
 
 ## Setup Instructions
 
@@ -63,7 +64,7 @@ The TimeGPT model identified the exchange rate as the most critical feature infl
 To include instructions for running your Streamlit application locally in your README file, you'll want to provide clear steps for setting up the environment, installing dependencies, and starting the app. Based on your imports and the use of `NixtlaClient`, here’s a suggested section to add to your README:
 
 ---
-The application can be accessed at https://senam-art-predictingmarketpricessenamdzomekunathanieldery-kbrn.streamlit.app/
+
 
 
 ## Running the Application Locally
