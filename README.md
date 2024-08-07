@@ -6,7 +6,9 @@
 This project aims to predict rice prices in Ghana using economic exogenous features such as exchange rates, maize prices, inflation, and rainfall. After exploring various methods for time series prediction, we found that Nixtla's TimeGPT model provided the most accurate results by reducing biases commonly found in other methods.
 
 ***Youtube Link***: https://youtu.be/UuKaaygph7M (demo of the application)
-The application can be accessed at https://senam-art-predictingmarketpricessenamdzomekunathanieldery-kbrn.streamlit.app/
+
+
+### The application can be accessed at https://senam-art-predictingmarketpricessenamdzomekunathanieldery-kbrn.streamlit.app/
 
 ## Setup Instructions
 
