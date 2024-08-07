@@ -55,13 +55,69 @@ The dataset was created from real data in Ghana. It includes historical data on 
 
 The TimeGPT model identified the exchange rate as the most critical feature influencing rice prices in Ghana. The model's forecasts have been saved in `forecast_combined_df.csv` for the period from 2023-07 to 2024-07. This is used for predictions in the deployed app.
 
-## Future Work
+## Improvements
 
 - **Fine-Tuning**: Future iterations could involve further fine-tuning of the model for more accurate predictions.
 - **Accuracy** : Building a larger dataset that captures the granularity which would improve the accurqcy of predictions
 
+To include instructions for running your Streamlit application locally in your README file, you'll want to provide clear steps for setting up the environment, installing dependencies, and starting the app. Based on your imports and the use of `NixtlaClient`, here’s a suggested section to add to your README:
 
-## Conclusion
+---
+The application can be accessed at https://senam-art-predictingmarketpricessenamdzomekunathanieldery-kbrn.streamlit.app/
 
-The project successfully demonstrates the power of using advanced models like TimeGPT for accurate time series forecasting, especially in the context of predicting economic variables.
+
+## Running the Application Locally
+
+To run this Streamlit application locally, follow these steps:
+
+### Prerequisites
+
+Make sure you have Python 3.8 or later installed. You can download Python from [python.org](https://www.python.org/downloads/).
+
+### Setup
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+2. **Create and Activate a Virtual Environment (optional but recommended):**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
+3. **Install Dependencies:**
+
+   Ensure you have `pip` installed, then install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   Make sure `requirements.txt` includes the following (add other dependencies as necessary):
+
+   ```plaintext
+   streamlit
+   pandas
+   numpy
+   matplotlib
+   nixtla
+   plotly
+   ```
+
+
+4. **Run the Application:**
+
+   Start the Streamlit app by running:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+   This will open a new tab in your default web browser with the running application.
+
 
